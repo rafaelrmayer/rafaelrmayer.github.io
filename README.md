@@ -55,3 +55,20 @@ Os projetos encontram-se em diferentes estágios de desenvolvimento. Componentes
 **Desenvolvido por Rafael Ricardo Mayer**
 
 *Sempre rumo à utopia e ao horizonte. ♾️*
+
+## Demonstração interativa da Neural API
+
+A seção #neural-api apresenta o projeto e executa no navegador o modelo sintético
+9→16→ReLU→5 usado na demonstração de cartões da Jornada de Bia. Não consulta um
+backend, grava escolhas ou treina com visitantes. O formulário permite variar
+período e última atividade; escolher um cartão prepara o contexto do próximo
+cálculo. Duas opções fixas limpam esse contexto e Reiniciar restaura a tela.
+
+Pesos em js/card-model-data.js, motor em js/card-model.js e interface em
+js/neural-demo.js. Os pesos foram exportados do checkpoint gerado pelo script
+reproduzível de neural-api (semente 42). O exportador está no repositório
+jornada-de-Bia_Sakura_V_9.1, scripts/export-card-model.py.
+
+Verificação: node --test tests/*.test.cjs compara as pontuações com referências
+PyTorch nos 18 contextos (tolerância 1e-5) e exige a mesma ordenação.
+A demonstração não implica hospedagem pública da API nem preferências reais.

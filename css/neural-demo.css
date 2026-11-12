@@ -1,0 +1,29 @@
+#neural-api {scroll-margin-top:24px;}
+.demo-shell {border:1px solid var(--line);border-radius:24px;background:linear-gradient(130deg,#172738,#111c2b);overflow:hidden;}
+.demo-top {padding:24px 28px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap;}
+.demo-top p {margin:0;color:var(--muted);font-size:.9rem;}
+.demo-badge {color:var(--accent);font-size:.8rem;border:1px solid #446954;padding:5px 12px;border-radius:30px;}
+.demo-body {display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);}
+.demo-context {padding:28px;border-right:1px solid var(--line);}
+.demo-context h3,.demo-result h3 {margin:0 0 8px;font-size:1.1rem;}
+.demo-context p {color:var(--muted);font-size:.93rem;}
+.demo-context label {display:block;margin:20px 0 6px;font-weight:650;font-size:.9rem;}
+.demo-context select {width:100%;font:inherit;color:var(--txt);background:var(--bg);border:1px solid #53667f;border-radius:10px;padding:12px;}
+.demo-controls {display:flex;gap:10px;flex-wrap:wrap;margin-top:24px;}
+.demo-shell button {font:inherit;cursor:pointer;}
+.demo-controls button {min-height:48px;border:1px solid var(--line);}
+.demo-result {padding:28px;}
+.demo-card-list {display:grid;gap:10px;list-style:none;padding:0;margin:20px 0;}
+.demo-card-list button {display:flex;align-items:center;gap:14px;text-align:left;width:100%;padding:14px 16px;border-radius:12px;background:#1d2b3d;border:1px solid #40536d;color:var(--txt);min-height:64px;transition:border-color .15s,background .15s;}
+.demo-card-list button:hover {border-color:var(--accent);background:#24384a;}
+.demo-card-icon {font-size:1.4rem;}
+.demo-rank {margin-left:auto;font-size:.8rem;color:var(--accent2);font-variant-numeric:tabular-nums;}
+.demo-fixed {display:flex;flex-wrap:wrap;gap:10px;}
+.demo-fixed button {flex:1;min-width:140px;padding:12px;background:transparent;color:var(--txt);border:1px dashed #70839a;border-radius:10px;min-height:48px;}
+.demo-shell :is(button,select):focus-visible {outline:3px solid var(--accent2);outline-offset:3px;}
+.demo-status {font-size:.9rem;color:var(--accent2);min-height:3em;margin:20px 0 0;}
+.demo-notes {padding:20px 28px;border-top:1px solid var(--line);font-size:.9rem;color:var(--muted);}
+.demo-notes p {margin:8px 0;}
+.demo-notes summary {cursor:pointer;color:var(--txt);font-weight:650;}
+@media(max-width:700px){.demo-body{grid-template-columns:1fr}.demo-context{border-right:0;border-bottom:1px solid var(--line)}.demo-context,.demo-result,.demo-top,.demo-notes{padding:20px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.demo-card-list button{transition:none}}
