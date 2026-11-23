@@ -22,12 +22,18 @@ Sou **Rafael Ricardo Mayer**, desenvolvedor de software, pesquisador independent
 |---|---|---|
 | 🌸 **Jornada de Bia** | Aplicativo de comunicação assistiva com cartões visuais, síntese de voz, personalização e pesquisa experimental em aprendizado de máquina. | [Código — Sakura V9.1](https://github.com/rafaelrmayer/jornada-de-Bia_Sakura_V_9.1) · [Aplicativo](https://rafaelrmayer.github.io/jornada-de-Bia_Sakura_V_9.1/) |
 | 🌿 **Sensory Load API** | API experimental de estimativa de fatores de carga sensorial em ambientes, com dados demonstrativos. | [Código](https://github.com/rafaelrmayer/sensory-load-api) |
-| 🌻 **Rede Girassol API** | Projeto de organização e consulta de informações sobre serviços de saúde. | [Código](https://github.com/rafaelrmayer/Rede_Girassol_API_V_1) |
+| 🌻 **Rede Girassol API** | Projeto social de consulta a dados públicos de saúde, reabilitação e atendimento a autistas documentado, com contatos, fontes e orientações de acesso. | [Painel](https://rede-girassol-api-v-1.rafael10mayer.workers.dev/) · [Documentação](https://rede-girassol-api-v-1.rafael10mayer.workers.dev/docs) · [Código](https://github.com/rafaelrmayer/Rede_Girassol_API_V_1) |
 | 🖋️ **INK Bia Cerisier** | Plataforma em desenvolvimento para gestão de estúdios de tatuagem. | [Código](https://github.com/rafaelrmayer/ink-bia-cerisier) |
 | 💙 **Prospecta** | Protótipo de prospecção e qualificação de oportunidades comerciais. | [Código](https://github.com/rafaelrmayer/Prospecta_V1) |
 | 🔭 **Explorador do Universo** | Projeto educacional de exploração de conceitos de astronomia e ciência. | [Código](https://github.com/rafaelrmayer/explorador-do-universo-v1) |
 
 Os projetos encontram-se em diferentes estágios de desenvolvimento. Componentes experimentais não implicam validação clínica ou científica.
+
+## Rede Girassol: informação organizada para ajudar
+
+A [seção do portfólio](https://rafaelrmayer.github.io/#rede-girassol) apresenta o painel para pessoas que procuram serviços e a API JSON documentada para desenvolvedores. A cobertura inicial é parcial, em Curitiba/PR; os registros não confirmam vagas, linha telefônica ativa ou vínculo com planos. O módulo Encontre apoio usa resumos revisados, sem geração por IA.
+
+A implementação usa TypeScript, Python, Cloudflare Workers/D1, GitHub Actions e OpenAPI. A integração RapidAPI foi testada, mas a listagem permanece privada. A importação ANS e a atualização mensal automatizada ainda são próximas etapas, não recursos já disponíveis. O propósito principal é social; eventual receita futura será avaliada para manutenção da infraestrutura.
 
 ## Pesquisa e publicações
 
