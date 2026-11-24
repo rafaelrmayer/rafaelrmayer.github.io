@@ -78,3 +78,11 @@ jornada-de-Bia_Sakura_V_9.1, scripts/export-card-model.py.
 Verificação: node --test tests/*.test.cjs compara as pontuações com referências
 PyTorch nos 18 contextos (tolerância 1e-5) e exige a mesma ordenação.
 A demonstração não implica hospedagem pública da API nem preferências reais.
+
+## Neural API publicada no RapidAPI
+
+Em 24/11/2026, o responsável confirmou a publicação da [Neural API no RapidAPI](https://rapidapi.com/RafaelMayer/api/neural-api), hospedada no Render. O plano Basic está configurado a US$ 0/mês, com 1.000 chamadas/mês (Hard Limit) e 10 chamadas/minuto; eventual taxa de banda da plataforma é separada do preço da assinatura.
+
+As cinco rotas foram testadas pelo gateway, incluindo as duas rotas de cartões após ativar o Proxy Secret; o acesso ao namespace protegido sem credencial foi recusado. Isso não é teste de carga ou garantia de disponibilidade contínua. As rotas originais da demonstração continuam públicas.
+
+O portfólio inclui o link da listagem; a demonstração visual continua executando localmente no navegador, sem chamadas à API. Os modelos são experimentais: a rede simples usa pesos aleatórios, e os cartões usam dados sintéticos, sem validação clínica ou inferência de intenções.
