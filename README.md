@@ -21,6 +21,7 @@ Sou **Rafael Ricardo Mayer**, desenvolvedor de software, pesquisador independent
 | Projeto | Descrição | Repositório |
 |---|---|---|
 | 🌸 **Jornada de Bia** | Aplicativo de comunicação assistiva com cartões visuais, síntese de voz, personalização e pesquisa experimental em aprendizado de máquina. | [Código — Sakura V9.1](https://github.com/rafaelrmayer/jornada-de-Bia_Sakura_V_9.1) · [Aplicativo](https://rafaelrmayer.github.io/jornada-de-Bia_Sakura_V_9.1/) |
+| **Nonverbal API** | Corpo e rosto por foto, medidas acústicas em WAV e demonstração com câmera, mãos e vídeo local. Sem inferir emoção, intenção ou identidade. | [Demonstração](https://nonverbal-api.onrender.com/) · [Documentação](https://nonverbal-api.onrender.com/docs) · [Código](https://github.com/rafaelrmayer/nonverbal-api) |
 | 🌿 **Sensory Load API** | API experimental de estimativa de fatores de carga sensorial em ambientes, com dados demonstrativos. | [Código](https://github.com/rafaelrmayer/sensory-load-api) |
 | 🌻 **Rede Girassol API** | Projeto social de consulta a dados públicos de saúde, reabilitação e atendimento a autistas documentado, com contatos, fontes e orientações de acesso. | [Painel](https://rede-girassol-api-v-1.rafael10mayer.workers.dev/) · [Documentação](https://rede-girassol-api-v-1.rafael10mayer.workers.dev/docs) · [Código](https://github.com/rafaelrmayer/Rede_Girassol_API_V_1) |
 | 🖋️ **INK Bia Cerisier** | Plataforma em desenvolvimento para gestão de estúdios de tatuagem. | [Código](https://github.com/rafaelrmayer/ink-bia-cerisier) |
@@ -86,3 +87,11 @@ Em 24/11/2026, o responsável confirmou a publicação da [Neural API no RapidAP
 As cinco rotas foram testadas pelo gateway, incluindo as duas rotas de cartões após ativar o Proxy Secret; o acesso ao namespace protegido sem credencial foi recusado. Isso não é teste de carga ou garantia de disponibilidade contínua. As rotas originais da demonstração continuam públicas.
 
 O portfólio inclui o link da listagem; a demonstração visual continua executando localmente no navegador, sem chamadas à API. Os modelos são experimentais: a rede simples usa pesos aleatórios, e os cartões usam dados sintéticos, sem validação clínica ou inferência de intenções.
+
+## Nonverbal API: corpo, rosto e áudio
+
+A [seção Nonverbal](https://rafaelrmayer.github.io/#nonverbal-api) apresenta uma demonstração hospedada no Render, conferida pelo responsável com câmera e microfone reais. Reúne análise corporal/facial por foto, espelho com corpo, 21 pontos por mão e contornos faciais, vídeo local com rastros de movimento e medidas acústicas de amostras WAV ou microfone.
+
+Espelho e vídeo são processados no navegador; a análise por foto e áudio envia uma amostra à API apenas após ação explícita. As medidas são experimentais e não indicam emoção, intenção, identidade ou diagnóstico. O código não persiste as amostras; há controles para interromper câmera/microfone e limpar dados locais.
+
+A integração para desenvolvedores no RapidAPI está em preparação. O portfólio não anuncia uma listagem pública ou cotas ainda não configuradas. Após a publicação efetiva, incluir o endereço confirmado da listagem.
