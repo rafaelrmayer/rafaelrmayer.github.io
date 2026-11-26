@@ -49,6 +49,10 @@ A implementação usa TypeScript, Python, Cloudflare Workers/D1, GitHub Actions 
 
 [Conhecer o livro na Amazon](https://www.amazon.com.br/dp/B0HMPHYPT6)
 
+📖 **Cosmos Algorítmico** — publicação de Rafael Ricardo Mayer sobre inteligência artificial e astronomia.
+
+[Conhecer Cosmos Algorítmico na Amazon](https://www.amazon.com.br/dp/B0HRRX3TMY)
+
 ### Áreas de interesse
 
 - Inteligência artificial e aprendizado de máquina
