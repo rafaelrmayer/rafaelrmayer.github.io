@@ -16,6 +16,12 @@ Sou **Rafael Ricardo Mayer**, desenvolvedor de software, pesquisador independent
 
 > Não quero apenas deixar um legado de tecnologia para minhas filhas. Quero ajudar a construir o mundo em que elas vão viver, e contribuir para que esse mundo também seja melhor para outras pessoas.
 
+## Projetos independentes, um propósito comum
+
+![Mapa dos projetos em torno da neurodiversidade: Jornada de Bia — comunicar; Pequenas Girafas — aprender; Sensory Load — acessibilidade; Rede Girassol — cuidar; Non Verbal — compreender.](mapa-projetos.png)
+
+Comunicação, aprendizagem, acessibilidade e acesso à informação. Ilustração criada com auxílio de IA; cada projeto tem seu próprio estágio de desenvolvimento.
+
 ## Projetos em destaque
 
 | Projeto | Descrição | Repositório |
